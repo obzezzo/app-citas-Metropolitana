@@ -1,0 +1,330 @@
+.hero {
+  background-image: url('../assets/header.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 5% 0 5% 0 !important;
+}
+
+@media (max-width: 1200px) {
+  .hero {
+    padding: 15% 0 10% 0 !important;
+  }
+}
+
+.icono {
+  font-size: 55px;
+  height: auto;
+  color: #1894da;
+  margin: 0;
+  font-weight: 600;
+}
+
+.iconoerror {
+  font-size: 75px;
+  height: auto;
+  color: #de0256;
+  margin: 0;
+  font-weight: 600;
+}
+
+.usuario {
+  font-size: 34px;
+  font-weight: 400;
+  color: #1894da;
+  margin: 0 auto;
+}
+
+.bienvenida {
+  color: #9F9F9F;
+  font-weight: 600;
+}
+
+.contenedor-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-primary {
+  transition: all ease-in-out 500ms;
+}
+
+.btn-primary:hover {
+  background-color: #0752b5;
+}
+
+.updatedata {
+  max-width: 40%;
+  padding: 1.5rem;
+  background-color: #fff;
+}
+
+@media (max-width: 1200px) {
+  .updatedata {
+    max-width: 100%;
+  }
+
+  .updatedata .btn-primary {
+    font-size: 12px;
+  }
+}
+
+.updatedata input[type="text"] {
+  border-radius: 99px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border: 2px solid #ededed;
+  color: #343434;
+  font-weight: 400;
+}
+
+.updatedata input[type="email"] {
+  border-radius: 99px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border: 2px solid #ededed;
+  color: #343434;
+  font-weight: 400;
+}
+
+.updatedata input[type="password"] {
+  border-radius: 99px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border: 2px solid #ededed;
+  color: #343434;
+  font-weight: 400;
+}
+
+.updatedata input[type="number"] {
+  border-radius: 99px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border: 2px solid #ededed;
+  color: #343434;
+  font-weight: 400;
+}
+
+.updatepassword {
+  max-width: 35%;
+  padding: 1.5rem;
+  background-color: #fff;
+}
+
+@media (max-width: 1200px) {
+  .updatepassword {
+    max-width: 100%;
+  }
+}
+
+.updatepassword input[type="text"] {
+  border-radius: 99px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border: 2px solid #ededed;
+  color: #343434;
+  font-weight: 400;
+}
+
+.updatepassword input[type="email"] {
+  border-radius: 99px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border: 2px solid #ededed;
+  color: #343434;
+  font-weight: 400;
+}
+
+.updatepassword input[type="password"] {
+  border-radius: 99px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border: 2px solid #ededed;
+  color: #343434;
+  font-weight: 400;
+}
+
+.updatepassword input[type="number"] {
+  border-radius: 99px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border: 2px solid #ededed;
+  color: #343434;
+  font-weight: 400;
+}
+
+.mensaje {
+  font-weight: 700;
+  color: #1894da;
+  line-height: 1;
+  font-size: 30px;
+}
+
+.mensajeerror {
+  font-weight: 700;
+  color: #de0256;
+  line-height: 1;
+  font-size: 30px;
+}
+
+.textogris {
+  color: #979797;
+  font-weight: 500;
+}
+
+.table-titles {
+  color: #fff;
+  background-color: #1894da;
+  padding: 15px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.table-filas {
+  color: #434343;
+  background-color: #f1f1f1;
+  padding: 0px 7px 7px 7px;
+  font-size: 15px;
+  font-weight: 400;
+  border: 1px solid #e1e1e1;
+  align-items: center !important;
+}
+
+.tablacitas {
+  max-width: 50%;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-bottom: 5%;
+  padding: 0;
+}
+
+@media (max-width: 1200px) {
+  .tablacitas {
+    max-width: 100%;
+  }
+}
+
+.section {
+  max-width: 90vw !important;
+}
+
+.registrarcitas {
+  max-width: 60%;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-bottom: 5%;
+  padding: 0;
+}
+
+@media (max-width: 1200px) {
+  .registrarcitas {
+    max-width: 100% !important;
+  }
+
+  .registrarcitas .btn-primary {
+    min-width: 70% !important;
+    font-size: 16px;
+  }
+}
+
+.registrarcitas input[type="text"] {
+  border-radius: 99px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border: 2px solid #ededed;
+  color: #343434;
+  font-weight: 400;
+}
+
+.registrarcitas select {
+  border-radius: 99px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border: 2px solid #ededed;
+  color: #343434;
+  font-weight: 400;
+}
+
+.example-custom-input {
+  border-radius: 99px;
+  padding-left: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px !important;
+  border: 2px solid #ededed;
+  color: #343434;
+  font-weight: 400;
+}
+
+.example-custom-input:hover {
+  border: 2px solid #ededed;
+}
+
+.rounded-img {
+  border-radius: 14px;
+}
+
+.nombremedico {
+  background-color: #d5f0ff;
+  border-radius: 20px;
+  color: #494949;
+}
+
+
+.formcitas {
+  max-width: 30%;
+  padding: 1.5rem;
+  background-color: #fff;
+}
+
+@media (max-width: 1200px) {
+  .formcitas {
+    max-width: 100%;
+  }
+}
+
+.formcitas input[type="text"] {
+  border-radius: 99px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border: 2px solid #ededed;
+  color: #343434;
+  font-weight: 400;
+}
+
+.formcitas input[type="email"] {
+  border-radius: 99px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border: 2px solid #ededed;
+  color: #343434;
+  font-weight: 400;
+}
+
+.formcitas input[type="password"] {
+  border-radius: 99px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border: 2px solid #ededed;
+  color: #343434;
+  font-weight: 400;
+}
+
+.formcitas input[type="number"] {
+  border-radius: 99px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border: 2px solid #ededed;
+  color: #343434;
+  font-weight: 400;
+}
+
+.formcitas select {
+  border-radius: 99px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border: 2px solid #ededed;
+  color: #343434;
+  font-weight: 400;
+}

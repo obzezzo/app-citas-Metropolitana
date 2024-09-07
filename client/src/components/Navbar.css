@@ -1,0 +1,47 @@
+.menu {
+  display: grid;
+  background-color: #1894da;
+  min-width: 100% !important;
+  height: 100px;
+  color: #fff;
+  top: 0 !important;
+}
+
+.opcionlink {
+  border-radius: 99px;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  margin: 3px;
+  font-weight: 500;
+  font-size: 16px;
+  transition: all ease-in-out 500ms;
+}
+
+.opcionlink:hover {
+  background-color: #ffffff;
+  color: #1894da;
+}
+
+.btn-outline-primary {
+  border: 2px solid #fff;
+  border-radius: 99px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  transition: all ease-in-out 500ms;
+}
+
+.btn-outline-primary:hover {
+  border-color: #fff;
+  background-color: #fff;
+  color: #1894da;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-left: 10px;
+}

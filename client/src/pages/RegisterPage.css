@@ -1,0 +1,88 @@
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../assets/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.form-signup {
+  max-width: 40%;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 50px;
+  box-shadow: 0 0 12px #00000040;
+}
+
+@media (max-width: 1200px) {
+  .form-signup {
+    max-width: 100%;
+  }
+}
+
+.form-signup .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signup input[type="text"] {
+  border-radius: 99px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border: 2px solid #ededed;
+  color: #343434;
+  font-weight: 400;
+}
+
+.form-signup input[type="email"] {
+  border-radius: 99px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border: 2px solid #ededed;
+  color: #343434;
+  font-weight: 400;
+}
+
+.form-signup input[type="password"] {
+  border-radius: 99px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border: 2px solid #ededed;
+  color: #343434;
+  font-weight: 400;
+}
+
+.form-signup input[type="number"] {
+  border-radius: 99px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border: 2px solid #ededed;
+  color: #343434;
+  font-weight: 400;
+}
+
+.form-signup select {
+  border-radius: 99px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border: 2px solid #ededed;
+  color: #343434;
+  font-weight: 400;
+}
+
+.btn-primary {
+  background-color: #1894da;
+  border-radius: 66px;
+}
+
+.btn-primary:hover {
+  background-color: #004ee9;
+  border-radius: 66px;
+}
+
+.input-group-text {
+  border-radius: 25px 0 0px 25px;
+  min-height: 100%;
+}
